@@ -86,7 +86,7 @@ function App() {
       setDataPotencias([...dataPotencias, ...potencias])
       setDataPotenciaTotal([...dataPotenciaTotal, ...potenciaTotal])
     })
-  }, [corrienteData, dataEnergias, dataPotenciaTotal, dataPotencias, dataTensiones]);
+  }, []);
 
   return (
     <div className="dashboards">
