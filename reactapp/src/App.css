@@ -1,0 +1,36 @@
+.dashBoard {
+  display: flex;
+  justify-content: center;
+  border: 1px solid rgba(0, 0, 0, 0.688);
+  box-shadow: 2px 3px 20px 0px;
+  width: 46%;
+  height: fit-content;
+  /* border-radius: 15px; */
+  padding: 10px;
+  margin-bottom: 30px;
+  background-color: gray;
+}
+
+.dashboards {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding: 10px;
+}
+
+.dashboardLarge{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.464);
+  box-shadow: 2px 3px 20px 0px;
+  background-color: gray;
+
+}
+
+body{
+  background-color: #333a46b5;
+}
